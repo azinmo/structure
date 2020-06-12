@@ -2,7 +2,7 @@
   "name": "with-redux-toolkit",
   "version": "1.0.0",
   "scripts": {
-    "dev": "next",
+    "dev": "next dev",
     "build": "next build",
     "start": "cross-env NODE_ENV=production next start"
   },
@@ -16,13 +16,15 @@
     "express": "^4.17.1",
     "fastify-compress": "^2.0.1",
     "install": "^0.13.0",
+    "isomorphic-unfetch": "^3.0.0",
     "next": "latest",
     "next-i18next": "^4.4.2",
     "next-pwa": "^2.5.0",
     "npm": "^6.14.5",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-redux": "^7.2.0"
+    "react-redux": "^7.2.0",
+    "recharts": "^1.8.5"
   },
   "license": "ISC"
 }
